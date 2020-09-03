@@ -5,6 +5,7 @@ import { NgxSpinnerService } from '../../../node_modules/ngx-spinner';
   selector: 'app-profile',
   templateUrl: './profile.component.html',
   styleUrls: ['./profile.component.scss']
+
 })
 export class ProfileComponent implements OnInit {
 

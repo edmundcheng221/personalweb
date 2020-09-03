@@ -12,15 +12,16 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { EducationComponent } from './education/education.component';
 import { ReferenceComponent } from './reference/reference.component';
-// import { ContactComponent } from './contact/contact.component';
+// simport { ContactComponent } from './contact/contact.component';
 import { NgxSpinnerModule } from '../../../node_modules/ngx-spinner';
 import { ProjectsComponent } from './projects/projects.component';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     SnotifyModule,
+    BrowserAnimationsModule,
     NgxSpinnerModule
   ],
   declarations: [
